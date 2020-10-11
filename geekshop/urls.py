@@ -12,5 +12,5 @@ urlpatterns = [
     path("products/office", mainapp.products, name="products_office"),
     path("products/modern", mainapp.products, name="products_modern"),
     path("products/classic", mainapp.products, name="products_classic"),
-    path("contact/", mainapp.contact, name="contact"),
+    path("contact/", mainapp.contact, name="contact")
 ]
